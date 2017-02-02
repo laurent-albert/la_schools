@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include la_schools *.css
+recursive-include la_schools *.csv
+recursive-include la_schools *.html
+recursive-include la_schools *.ico
+recursive-include la_schools *.js
+recursive-include la_schools *.json
+recursive-include la_schools *.md
+recursive-include la_schools *.png
+recursive-include la_schools *.py
+recursive-include la_schools *.svg
+recursive-include la_schools *.txt
+recursive-exclude la_schools *.pyc
